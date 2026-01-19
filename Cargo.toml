@@ -1,0 +1,13 @@
+[package]
+name = "cancel-msg"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+charms-data = { git = "https://github.com/CharmsDev/charms", branch = "main" }
+bitcoin = { version = "0.32", features = ["serde"] }
+serde_yaml = "0.9"
+hex = "0.4"
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
